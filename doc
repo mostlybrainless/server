@@ -1,0 +1,5 @@
+An authentification service.
+Prerequisites:
+You need to have node.js and mongodb installed on your computer and mongod instance running in shell on port 27017(default port). 
+To start the server you have to execute "node index.js". Then you can access service from "index.html" or from terminal.
+When working from terminal query to server should be in form of a POST query "login=your/login&psw=your/password&type_in='signin'|'login'"
