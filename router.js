@@ -10,7 +10,7 @@ function route(post, response) {
   console.log("Connected correctly to server.");
   var entry = {};
   entry["login"]=post["login"];
-  db.collection('restaurants').find(entry).toArray( 
+  db.collection('users').find(entry).toArray( 
   	function(err, docs){
    	assert.equal(err, null);
    	console.log(docs);
