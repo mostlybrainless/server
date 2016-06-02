@@ -7,8 +7,11 @@ var router = require('./router.js');
 
 function start(){
 function onRequest(request, response) {
+  console.log(request.headers["cookie"]);
   if(request.url === '/favicon.ico'){
     console.log("SHIT happens");  
+  }else if (request.headers[]){
+
   }else{
 
   if(request.method === 'POST'){
